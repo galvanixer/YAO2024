@@ -16,7 +16,7 @@
                     {% for item in site.data.scientificmembers %}
                     <div class="testimonial-slider__slide swiper-slide">
                         <div class="testimonial-slider__author">
-                            <img src={{ item.image }} alt="Author image" class="testimonial-slider__avatar">
+                            <img src={{ item.image | relative_url }} alt="Author image" class="testimonial-slider__avatar">
                             <cite class="testimonial-slider__cite">
                                 <strong>{{ item.name }}</strong>
                                 <span>{{ item.title }}</span>
