@@ -1,0 +1,9 @@
+- name: Tanul Gupta
+  affiliation: University of Strasbourg, France
+  intro: Tanul Gupta is a PhD student at the University of Strasbourg, France. His research interests include the application of machine learning and deep learning techniques to solve problems in the field of computer vision and medical imaging. He is currently working on the development of deep learning models for the segmentation of brain tumors in MRI scans.
+  image: tanul.jpg
+
+- name: Prof. Guido Pupillo
+  affiliation: University of Strasbourg, France
+  intro: Guido Pupillo is a Professor at the University of Strasbourg, France. His research interests include the application of machine learning and deep learning techniques to solve problems in the field of computer vision and medical imaging. He is currently working on the development of deep learning models for the segmentation of brain tumors in MRI scans.
+  image: guido.jpg

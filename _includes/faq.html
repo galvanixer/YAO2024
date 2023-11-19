@@ -1,0 +1,31 @@
+<section id="faq" class="s-faq target-section">
+    <div class="row section-header section-header--dark">
+        <div class="column lg-12">
+            <h3 class="text-pretitle">FAQ</h3>
+            <h1 class="text-display-title">
+                Frequently Asked Questions
+            </h1>
+        </div>
+    </div> <!-- end section-header -->
+
+    <div class="row">
+        <div class="column lg-12 content-main">
+            <div class="faq-items">
+
+                {% for item in site.data.faq %}
+                <div class="faq-item">
+                    <div class="faq-item__question">
+                        <h5> {{ item.question }} </h5>
+                    </div> 
+                    <div class="faq-item__answer">
+                        <p>
+                            {{ item.answer }}
+                        </p>
+                    </div>
+                </div> <!-- end faq-item -->
+                {% endfor %}
+
+            </div> <!-- faq-items -->
+        </div> <!-- end column -->
+    </div> <!-- end column -->
+</section> <!-- end s-registration -->

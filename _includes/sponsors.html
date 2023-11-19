@@ -1,0 +1,49 @@
+<section id="sponsors" class="s-folio target-section">
+<!-- sponsors -->
+<div class="s-clients row">
+    <div class="column lg-12">
+
+        <div class="row section-header">
+            <div class="column lg-12">
+                <h3 class="title text-display-1">Our Sponsors</h3>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row sponsor-clients-list block-lg-one-fourth block-md-one-third block-tab-one-half block-stack">
+            {% for item in site.data.bigsponsors %}
+            <div class="column sponsor-clients-list__item">
+                <a href= {{ item.link }}>
+                    <img src={{ item.logo }} alt={{ item.sponsor }}>
+                </a>
+            </div>
+            {% endfor %}
+
+
+        </div> <!-- clients-list -->
+    </div> <!-- end column lg-12 -->
+</div>
+
+<div class="s-clients row">
+    <div class="column lg-12">
+
+        <div class="row section-header">
+            <div class="column lg-12">
+                <h3 class="title text-display-1">Partners</h3>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row sponsor-clients-list block-lg-one-eight block-md-one-sixth block-tab-one-fourth block-mob-one-half block-stack">
+            {% for item in site.data.partners %}
+            <div class="column sponsor-clients-list__item">
+                <a href= {{ item.link }}>
+                    <img src={{ item.logo }} alt={{ item.sponsor }}>
+                </a>
+            </div>
+            {% endfor %}
+
+
+        </div> <!-- clients-list -->
+    </div> <!-- end column lg-12 -->
+</div>
+
+</section> <!-- end sponsors -->

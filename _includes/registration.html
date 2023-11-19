@@ -1,0 +1,109 @@
+<!-- # registration
+        ================================================== -->
+<section id="registration" class="s-registration target-section">
+    <div class="row section-header section-header--dark has-bottom-sep">
+        <div class="column lg-12">
+            <h3 class="text-pretitle"> Registration </h3>
+            <h1 class="text-display-title"> Register for YAO 2024 </h1>
+        </div>
+    </div> <!-- end row -->
+    <div class="row">
+        <div class="column lg-12">
+            <h3 class="h3"> Application </h3>
+            <p>
+                Please prepare an abstract about your contribution using this LaTeX template (please add your name to
+                the file name). The abstract should be uploaded as a PDF (maximum 1 page) as well as the .tex file and
+                (potential) figures. Upload documents and pre-registration should be done here.
+            </p>
+            <p>
+                If you are applying for a talk, you must additionally upload a video with a maximum duration of 4
+                minutes, where you briefly pitch the research you are going to present and why it is interesting.
+            </p>
+            <p>
+                Furthermore, if you are an experimentalist you can apply for the possibility of giving a virtual lab
+                tour of your laboratory. Such a tour can include showing photos of your lab and university, showing
+                brief videos or what else you deem most interesting. Important! This will not affect your chances of
+                getting a talk
+            </p>
+
+            <div class="btn-wrap">
+                <a href="#0" class="btn btn--stroke">
+                    Abstract Template
+                </a>
+            </div>
+
+        </div>
+
+        <div class="column lg-12">
+
+            <h3>Conference Fees</h3>
+            <p>Explore our conference fees designed for your convenience and choose from options with or without
+                accommodation.</p>
+
+            <div class="table-responsive">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in site.data.fees %}
+                        <tr>
+                            <td>{{ item.category }}</td>
+                            <td>{{ item.fee }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="p-small">
+                NOTE:
+                The registration fee covers the accommodation with breakfast, lunches in the nearby cafeteria and the
+                conference dinner.
+                Moreover, we plan to offer grants covering participants’ fees for participants without funding from
+                their institution.
+            </p>
+        </div>
+
+
+        <div class="column lg-12">
+
+            <h3>Deadlines</h3>
+            <p>Mark your calendars! Important conference dates and deadlines are approaching. Stay tuned for updates!
+            </p>
+
+            <div class="table-responsive">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Event</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in site.data.deadlines %}
+                        <tr>
+                            <td>{{ item.event }}</td>
+                            <td>{{ item.date }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column lg-12">
+            <div class="btn-wrap">
+                <a href="#0" class="btn btn--primary">
+                    Register Now
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

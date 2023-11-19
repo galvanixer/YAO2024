@@ -1,0 +1,80 @@
+<!-- ## contact
+================================================== -->
+<section id="contact" class="s-contact target-section">
+
+    <div class="row section-header section-header--dark"">
+        <div class=" column lg-12">
+        <h3 class="text-pretitle">Get In Touch</h3>
+        <h1 class="text-display-title">
+            Do you seek further information?
+        </h1>
+    </div>
+    </div>
+
+    <div class="row row-x-center text-center s-contact__content">
+        <div class="column lg-12">
+            <p class="lead">
+                Should you desire additional information or wish to delve deeper into any aspect, please do not hesitate
+                to reach out and we will be more than happy to assist you.
+            </p>
+            <div class="btn-wrap">
+                <a href="mailto:{{site.data.contact.email}}" class="btn btn--primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                        <path
+                            d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M20,6v0.511 l-8,6.223L4,6.512V6H20z M4,18V9.044l7.386,5.745C11.566,14.93,11.783,15,12,15s0.434-0.07,0.614-0.211L20,9.044L20.002,18H4z">
+                        </path>
+                    </svg>
+                    Write An Email
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="s-footer">
+
+        <div class="row s-footer__top">
+            <div class="column lg-5 md-8 stack-on-700 s-footer__block contact-address">
+                <h4 class="h6">Where to Find Us</h4>
+
+                <p>
+                    {{ site.data.contact.address }}
+                </p>
+            </div>
+
+            <div class="column lg-3 md-4 stack-on-700 s-footer__block contact-social">
+                <h4 class="h6">Follow Us</h4>
+
+                <ul class="contact-list">
+                    <li><a href={{ site.data.contact.linkedin }}>LinkedIn</a></li>
+                    <li><a href={{ site.data.contact.twitter }}>Twitter</a></li>
+                </ul>
+            </div>
+
+            <div class="column lg-3 md-12 s-footer__block contact-number">
+                <h4 class="h6">Contact Us</h4>
+
+                <ul class="contact-list">
+                    <li><a href="mailto:{{site.data.contact.email}}">{{site.data.contact.email}}</a></li>
+                    <li><a>{{ site.data.contact.phone }}</a></li>
+                </ul>
+            </div>
+        </div> <!-- end s-footer__top -->
+
+        <div class="row s-footer__bottom">
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <span class="ss-go-top__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            style="fill:rgba(0, 0, 0, 1);transform:rotate(90deg);-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1)">
+                            <path d="M6 4H18V6H6zM11 14L11 20 13 20 13 14 18 14 12 8 6 14z"></path>
+                        </svg>
+                    </span>
+                    <span class="ss-go-top__text">Back to Top</span>
+                </a>
+            </div>
+        </div> <!-- end s-footer__top -->
+
+    </footer>
+
+</section> <!-- end s-contact -->

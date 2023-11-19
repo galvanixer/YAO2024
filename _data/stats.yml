@@ -1,0 +1,19 @@
+- title: Invited Speakers
+  count: 5
+  description: Enrich your conference experience with insights from a distinguished lineup of invited speakers at YAO 2024. 
+  more: false 
+
+- title: Abstract Submissions
+  count: 40
+  description: Over 40 abstract submissions have been received. Don't miss the opportunity – submit yours before January 10, 2024, to be part of the YAO conference. 
+  more: true 
+
+- title: Attendees
+  count: 100
+  description: The YAO conference is a great opportunity to meet and network with other young researchers in the field of optics. 
+  more: true
+
+- title: Years Running
+  count: 28
+  description: The YAO conference has been a significant annual event since its inception in 1995, marking its 28th consecutive year in 2024
+  more: false

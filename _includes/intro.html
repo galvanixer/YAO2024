@@ -1,0 +1,52 @@
+<!-- # intro 
+        ================================================== -->
+<section id="intro" class="s-intro target-section">
+
+    <div class="row">
+        <div class="column">
+            <div class="s-intro__top-block">
+                <span class="s-intro__bg"></span>
+
+                <h1 class="s-intro__text">
+                    The Young Atom Opticians
+                    Conference (YAO) 2024 <span>.</span>
+                </h1>
+
+                <a href="#programme" class="s-intro__scroll-down smoothscroll">
+                    <span>Scroll Down</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill:rgba(0, 0, 0, 1);transform:rotate(180deg);-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2)">
+                        <path
+                            d="M21 11L6.414 11 11.707 5.707 10.293 4.293 2.586 12 10.293 19.707 11.707 18.293 6.414 13 21 13z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-x-center s-intro__about-wrap">
+        <div class="column s-intro__about">
+            <h2 class="s-intro__about-title">{{ site.data.intro.greeting }}</h2>
+
+            {{ site.data.intro.description}}
+
+        </div>
+    </div>
+
+    <div class="row about-stats stats block-lg-one-fourth block-md-one-half block-mob-whole" data-animate-block>
+        {% for item in site.data.stats %}
+        <div class="column stats__item" data-animate-el>
+            <div class="stats__count" data-counter={{ item.count }}><span>{{ item.count }}</span> {% if item.more==true %} + {% endif %}</div>
+            <h5>{{ item.title }}</h5>
+            <p>
+                {{ item.description }}
+            </p>
+        </div>
+        {% endfor %}
+
+        </div>
+
+    </div> <!-- end about-stats -->
+
+</section> <!-- end s-intro -->
