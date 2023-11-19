@@ -48,7 +48,7 @@
                 <div class="swiper-wrapper clients__content">
                 {% for item in site.data.teammembers %}
                     <a href="#0" title="" class="swiper-slide clients__slide swiper-slide-active" style="width: 80px; margin-right: 10px;" role="group" aria-label="1 / 8">
-                        <img src={{ item.logo }}>
+                        <img src={{ item.logo | relative_url }}>
                         <div class="member"> {{item.member}} </div>
                         <div class="title"> {{item.title}} </div>
                     </a>

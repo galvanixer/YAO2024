@@ -13,7 +13,7 @@
             {% for item in site.data.bigsponsors %}
             <div class="column sponsor-clients-list__item">
                 <a href= {{ item.link }}>
-                    <img src={{ item.logo }} alt={{ item.sponsor }}>
+                    <img src={{ item.logo | relative_url }} alt={{ item.sponsor }}>
                 </a>
             </div>
             {% endfor %}
@@ -36,7 +36,7 @@
             {% for item in site.data.partners %}
             <div class="column sponsor-clients-list__item">
                 <a href= {{ item.link }}>
-                    <img src={{ item.logo }} alt={{ item.sponsor }}>
+                    <img src={{ item.logo | relative_url }} alt={{ item.sponsor }}>
                 </a>
             </div>
             {% endfor %}
