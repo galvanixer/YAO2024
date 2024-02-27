@@ -1,7 +1,5 @@
 /* =================================================================== 
- * Tyndale Main Stylesheet
- * Template Ver. 1.0.0
- * 06-17-2021
+ * Main Stylesheet
  * ------------------------------------------------------------------
  *
  * TOC:
@@ -1501,12 +1499,13 @@ figure {
     margin-right : 0;
 }
 
-figure img+figcaption {
+/* figure img+figcaption {
     margin-top : var(--vspace-1);
-}
+} */
 
 figcaption {
-    font-style    : italic;
+    margin-top : var(--vspace-0_125);
+    font-style    : bold;
     font-size     : var(--text-sm);
     text-align    : center;
     margin-bottom : 0;
@@ -2788,7 +2787,7 @@ img.u-pull-left {
 }
 
 .text-display-title {
-    --text-display-title-size : 5.6rem;
+    --text-display-title-size : 4.0rem;
     --text-multiplier         : 1;
     font-family               : var(--font-2);
     font-size                 : calc(var(--text-display-title-size) * var(--text-multiplier));
@@ -2931,7 +2930,7 @@ img.u-pull-left {
 
 .s-header__nav a {
     display             : block;
-    font-size           : 10px;
+    font-size           : 12px;
     font-weight         : 400;
     line-height         : calc(var(--header-height) - 1px);
     text-transform      : uppercase;
@@ -3197,10 +3196,10 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
-    --text-huge             : 7.6rem;
+    --text-huge             : 6.0rem;
     --text-huge-line-height : 1.158;
     --text-huge-multiplier  : 1;
-    padding-top             : calc(var(--header-height) + var(--vspace-5));
+    padding-top             : calc(var(--header-height) + var(--vspace-3));
     padding-bottom          : var(--vspace-5);
 }
 
@@ -3209,7 +3208,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__top-block {
     width    : 100%;
-    padding  : 0 12%;
+    padding  : 0 1%;
     position : relative;
 }
 
@@ -3248,11 +3247,17 @@ img.u-pull-left {
     letter-spacing : normal;
     text-align     : center;
     margin         : 0;
-    padding-bottom : calc(10 * var(--space));
+    padding-top  : var(--vspace-1);
+    padding-bottom : calc(8 * var(--space));
     position       : relative;
 }
 
 .s-intro__text span {
+    color : var(--color-1);
+    font-size : calc(var(--text-huge) * 0.5);
+}
+
+.color1 {
     color : var(--color-1);
 }
 
@@ -3298,16 +3303,16 @@ img.u-pull-left {
 .s-intro__about {
     z-index          : 1;
     flex             : none;
-    width            : 75%;
-    max-width        : 880px;
+    width            : 100%;
+    max-width        : 1300px;
     background-color : rgba(10, 11, 11, 0.75);
     font-weight      : 300;
     font-size        : calc(var(--text-size) * 1.1111);
     line-height      : var(--vspace-1_25);
     color            : var(--color-text-light);
     margin-top       : calc(var(--vspace-3) * -1);
-    margin-bottom    : var(--vspace-3_5);
-    padding          : var(--vspace-2_5) var(--vspace-3) var(--vspace-2);
+    margin-bottom    : 0;
+    padding-top      : var(--vspace-2_5);
     position         : relative;
 }
 
@@ -3329,6 +3334,26 @@ img.u-pull-left {
     line-height   : var(--vspace-1);
     margin-top    : 0;
     margin-bottom : var(--vspace-2);
+}
+
+.pintro::before {
+    display          : block;
+    width            : 1px;
+    height           : var(--vspace-2);
+    background-color : var(--color-1);
+    transform        : translateX(-50%);
+    position         : absolute;
+    top              : calc(var(--vspace-1) * -1);
+    left             : 50%;
+}
+.pintro {
+    background-color:rgba(10, 11, 11, 0.75);
+    padding-right: var(--vspace-1);
+    padding-left: var(--vspace-1);
+}
+
+.pintro p {
+    text-align: justify;
 }
 
 /* --------------------------------------------------------------------
@@ -3403,7 +3428,7 @@ img.u-pull-left {
     }
 
     .s-intro__top-block {
-        padding : 0 8vw;
+        padding : 0 2vw;
     }
 
     .s-intro__about {
@@ -3706,6 +3731,10 @@ img.u-pull-left {
     margin-left: .2rem;
     margin-bottom: 0;
     position: relative;
+}
+
+.s-team p {
+    color: var(--color-white);
 }
 
 /* ==================================================================
@@ -4558,7 +4587,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
  .google-map {
-    padding-bottom: 50%;
+    padding-bottom: 57%;
     position: relative;
 }
 

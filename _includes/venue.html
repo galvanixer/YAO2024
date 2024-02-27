@@ -19,10 +19,38 @@
                 {{ site.data.venue_accomodation.venueaddress }}
             </p>
 
-            <div class="google-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14695.658943489674!2d7.756429157950416!3d48.582165004462766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8fe7d1f814f%3A0xb2d2bba65ae18ede!2sSupramolecular%20Science%20and%20Engineering%20Institute!5e0!3m2!1sen!2sfr!4v1700399634234!5m2!1sen!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <p>
+                {{ site.data.venue_accomodation.venuedirections }}
+            </p>
         </div>
+
+        <div class="column lg-6 tab-12">
+        <figure>
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14695.658943489674!2d7.756429157950416!3d48.582165004462766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8fe7d1f814f%3A0xb2d2bba65ae18ede!2sSupramolecular%20Science%20and%20Engineering%20Institute!5e0!3m2!1sen!2sfr!4v1700399634234!5m2!1sen!2sfr" width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <figcaption>
+                ISIS location
+            </figcaption>
+        </figure>
+
+        </div>
+        <div class="column lg-6 tab-12">
+            <figure>
+                <img src={{ site.data.venue_accomodation.venueimage | relative_url }} alt="ISIS" sizes="(max-width: 1000px) 100vw, 1000px">
+
+                <figcaption>
+                    ISIS
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="column lg-12">
+            <p>
+                {{ site.data.venue_accomodation.additionalinformation }}
+            </p>
+        </div>
+
         <div class="column lg-12">
             <h3 class="h3"> Accomodation </h3>
             {{ site.data.venue_accomodation.accomodationdescription }}

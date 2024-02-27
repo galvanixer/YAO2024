@@ -2,20 +2,28 @@
   link: "#intro"
   current: true
   
-- title: Programme
-  link: "#programme"
+# - title: Programme
+#   link: "#programme"
+#   current: false
+
+- title: Registration
+  link: "#registration"
   current: false
 
 - title: Venue
   link: "#venue"
   current: false
 
-- title: Registration
-  link: "#registration"
-  current: false
-
 - title: FAQ
   link: "#faq"
+  current: false
+
+- title: Organisers
+  link: "#team"
+  current: false
+
+- title: Contact
+  link: "#contact"
   current: false
 
   

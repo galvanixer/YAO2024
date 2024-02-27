@@ -9,11 +9,8 @@
 
                 <h1 class="s-intro__text">
                     Young Atom Opticians
-                    Conference 2024 <br> 
-                    <span>June 30th to July 5th 2024</span>
+                    Conference 2024 <span>.</span>
                 </h1>
-                {% comment %} <h2 class="s-intro__text"> <span>YAO 2024</span> {% endcomment %}
-                </h2>
                 {% comment %} <h1 class="s-intro__text">
                     <span>16 Feb 2024</span>
                 </h1> {% endcomment %}
@@ -34,20 +31,9 @@
     <div class="row row-x-center s-intro__about-wrap">
         <div class="column s-intro__about">
             <h2 class="s-intro__about-title">{{ site.data.intro.greeting }}</h2>
-        </div>
-    </div>
-    <div class="row pintro">
-        <div class="column lg-6 tab-12">
-            {{ site.data.intro.description}}
-        </div>
 
-        <div class="column lg-6 tab-12">
-            <h5 align="center"> INVITED SPEAKERS </h5>
-            <ul>
-                {% for speaker in site.data.speakers %}
-                <li>{{ speaker.name }} ({{ speaker.affiliation }})</li>
-                {% endfor %}
-            </ul>
+            {{ site.data.intro.description}}
+
         </div>
     </div>
 

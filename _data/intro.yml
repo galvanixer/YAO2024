@@ -1,12 +1,13 @@
 greeting: "Bonjour, Wecome to YAO 2024!"
 
 description: "<p>
-                The Young Atom Opticians conference (YAO) is an annual meeting aimed
-                at young PhD and master students in the field of atomic and molecular
-                physics. Its goal is to provide participants with a platform to learn
-                from and extend their network with peers from around the world.
+                The Young Atom Opticians conference (YAO) is an annual meeting aimed at PhD 
+                and master students in the field of atomic, molecular, optical and quantum physics. 
+                Its goal is to provide the perfect platform for young researchers to share their work, 
+                to learn from peers and experts and to connect with the international AMO and Quantum community.
             </p>
             <p>
-                YAO 2024 conference is arranged by PhD students from CESQ and
-                will take place in Strasbourg from June 12th to 16th 2024.
+                YAO 2024 is organized by PhD students from the Centre Européen de Sciences Quantiques (CESQ), 
+                together with administrative support from Fondation Jean-Marie Lehn, 
+                and will take place in <b> Strasbourg </b> from <b class=color1> June 30th to July 5th 2024. </b>
             </p>"

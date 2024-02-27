@@ -3,62 +3,30 @@
         <div class="column lg-12">
             <h3 class="text-pretitle">Our Team</h3>
             <h1 class="text-display-title h1black">
-                Meet our team of scientific experts, committee members, and PhD scholars.
+                YAO 2024 is organised by PhD students from CESQ together with Fondation Jean-Marie Lehn.
             </h1>
         </div>
     </div> <!-- end section-header -->
-    <div class="row testimonials" data-animate-block>
+
+    <div class="row">
         <div class="column lg-12">
 
-            <div class="swiper-container testimonial-slider" data-animate-el>
+            <p>
+                We are: Manuel Morgado, Maximilian Müllenbach, Amar Bellahense, Swayangdipta Bera, Matteo Bergonzoni, 
+                Tatiana Bespalova, Ruben Daraban, Clément Gradziel, Tanul Gupta, Anuja Padhye, 
+                Laura Pecorari & Vineesha Srivastava.
+            </p>
+            <p>
+                Our Scientific Advisory Committee helps in ensuring the high degree of scientific quality. 
+                They are: Prof. Guido Pupillo, Prof. Guillaume Schull & Prof. Shannon Whitlock
+                
+            </p>
+            <p>
+                We thank Anna Guyon and Laurence Schmitt for the administrative support in organising the conference. 
+                We thank the Fondation Jean-Marie Lehn for their support in handling the conference funds.
+            </p>
 
-                <div class="swiper-wrapper">
-                    {% for item in site.data.scientificmembers %}
-                    <div class="testimonial-slider__slide swiper-slide">
-                        <div class="testimonial-slider__author">
-                            <img src={{ item.image | relative_url }} alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>{{ item.name }}</strong>
-                                <span>{{ item.title }}</span>
-                            </cite>
-                        </div>
-                        <p>
-                            {{ item.description }}
-                        </p>
-                    </div> <!-- end testimonial-slider__slide -->
-                    {% endfor %}
-                </div> <!-- end swiper-wrapper -->
-
-                <div class="swiper-pagination"></div>
-
-            </div> <!-- end swiper-container -->
-
-        </div> <!-- end column -->
-    </div> <!-- end row testimonials -->
-
-    <!-- Other members -->
-    <div class="row clients-outer" data-animate-block>
-        <div class="column lg-12">
-
-            {% comment %} <h3 class="text-clients-title" data-animate-el>
-                Organizing Team
-            </h3> {% endcomment %}
-
-            <div class="swiper-container clients" data-animate-el>
-                <div class="swiper-wrapper clients__content">
-                {% for item in site.data.teammembers %}
-                    <a href="#0" title="" class="swiper-slide clients__slide swiper-slide-active" style="width: 80px; margin-right: 10px;" role="group" aria-label="1 / 8">
-                        <img src={{ item.logo | relative_url }}>
-                        <div class="member"> {{item.member}} </div>
-                        <div class="title"> {{item.title}} </div>
-                    </a>
-                {% endfor %}
-                </div>
-
-                <div class="swiper-pagination"></div>
-            </div> <!-- end clients -->
-
-        </div> <!-- end column -->
-    </div> <!-- end clients-outer -->
+        </div>
+    </div> <!-- end row -->
 
 </section>

@@ -1,5 +1,5 @@
 /* ===================================================================
- * Tyndale 1.0.0 - Main JS
+ * - Main JS
  *
  * ------------------------------------------------------------------- */
 
@@ -41,6 +41,12 @@
         translateY: [100, 0],
         opacity: [0, 1],
         delay: anime.stagger(400)
+    })
+    .add({
+        targets: '.pintro',
+        translateY: [-100, 0],
+        opacity: [0, 1],
+        duration: 200
     })
     .add({
         targets: '.s-intro__bg',

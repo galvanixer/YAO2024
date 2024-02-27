@@ -1,3 +1,13 @@
-venueaddress: "8 Allée Gaspard Monge, <br> 67000 Strasbourg, <br> France"
-venuedescription: "The conference will take place at the Institute of Science and Supramolecular Engineering (ISIS) of the University of Strasbourg. The institute ISIS is a Mixed Research Unit (UMR 7006) of CNRS and the University of Strasbourg."
-accomodationdescription: "<p>The included accommodation will be in the XXXXXX in 2 person bedrooms. It is a X minutes walk to conference venue or 1 stop by lines (X and X) and around X minutes to the city center.</p><p> We plan to split the rooms by gender. If you wish to share a room with a specific person, you can indicate this at a later point, together with the contact information for the conference fee wire transfer.</p>"
+venueaddress: "ISIS <br> 8 Allée Gaspard Monge, <br> 67000 Strasbourg, <br> France"
+venuedescription: "The conference will take place in the main lecture hall of Institut de Science et d’Ingénierie Supramoléculaires (ISIS) in Esplanade, which is a Mixed Research Unit (UMR 7006) of CNRS and Université de Strasbourg."
+venuedirections: "It can be reached by taking tram lines C or F up to the station “Université” or by a 20 min walk from the city center."
+venueimage: "/assets/images/venue/isis.jpg"
+additionalinformation: "The lab tours, for those who are interested, will take place at IPCMS and CESQ at the CNRS campus in Cronenbourg."
+accomodationdescription: "<p> The included accommodation will be close to the train station and the city center. 
+                          We split the number of participants equally into two hotels. 
+                          One of them is City Résidence Strasbourg Centre (1 Rue des Magasins, twin studios), 
+                          the other one is Hôtel Kaijoo (20 Rue du Jeu-des-Enfants, triple studios). 
+                          ISIS can be reached from both within 25 minutes by public transportation. </p> 
+                          <p> We plan to split the rooms by gender. If you wish to share a room with a specific person, 
+                          you can indicate this at a later point, together with the contact information for the conference 
+                          fee wire transfer.</p>"
