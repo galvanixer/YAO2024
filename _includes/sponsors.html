@@ -5,11 +5,18 @@
 
         <div class="row section-header">
             <div class="column lg-12">
-                <h3 class="title text-display-1">Our Sponsors</h3>
+                <h3 class="title text-display-1">Our Sponsors & Supporters</h3>
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row sponsor-clients-list block-lg-one-fourth block-md-one-third block-tab-one-half block-stack">
+        <div class="column lg-12">
+            <div class="row">
+            <figure>
+                <img src={{ "assets/images/LOGOS_YAO.png" | relative_url }} alt="sponsors">
+            </figure>
+            </div>
+        </div>
+        {% comment %} <div class="row sponsor-clients-list block-lg-one-fourth block-md-one-third block-tab-one-half block-stack">
             {% for item in site.data.bigsponsors %}
             <div class="column sponsor-clients-list__item">
                 <a href= {{ item.link }}>
@@ -19,11 +26,11 @@
             {% endfor %}
 
 
-        </div> <!-- clients-list -->
+        </div> <!-- clients-list --> {% endcomment %}
     </div> <!-- end column lg-12 -->
 </div>
 
-<div class="s-clients row">
+{% comment %} <div class="s-clients row">
     <div class="column lg-12">
 
         <div class="row section-header">
@@ -44,6 +51,6 @@
 
         </div> <!-- clients-list -->
     </div> <!-- end column lg-12 -->
-</div>
+</div> {% endcomment %}
 
 </section> <!-- end sponsors -->

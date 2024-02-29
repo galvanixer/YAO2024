@@ -1499,6 +1499,11 @@ figure {
     margin-right : 0;
 }
 
+.margin-top-bottom-0 {
+    margin-bottom : 0;
+    margin-top : 0;
+}
+
 /* figure img+figcaption {
     margin-top : var(--vspace-1);
 } */
@@ -2770,6 +2775,7 @@ img.u-pull-left {
  * ## theme-specific typography classes
  * ------------------------------------------------------------------- */
 .text-pretitle {
+    --text-display-title-size : 4.0rem;
     font-family    : var(--font-2);
     font-size      : var(--text-sm);
     font-weight    : 600;
@@ -2903,7 +2909,7 @@ img.u-pull-left {
     z-index  : 3;
     position : absolute;
     top      : 2.2rem;
-    left     : 2rem;
+    left     : 4rem;
 }
 
 .s-header__logo a {
@@ -2974,7 +2980,7 @@ img.u-pull-left {
     transform  : translate(0, -50%);
     position   : absolute;
     top        : calc(50% - .2rem);
-    right      : 2rem;
+    right      : 4rem;
 }
 
 .s-header__social li {
@@ -3219,7 +3225,7 @@ img.u-pull-left {
     background-size     : cover;
     width               : 100%;
     position            : absolute;
-    top                 : calc(1.5 * var(--text-huge-line-height) * var(--text-huge) * var(--text-huge-multiplier));
+    top                 : calc(1.75 * var(--text-huge-line-height) * var(--text-huge) * var(--text-huge-multiplier));
     right               : 0;
     bottom              : 0;
     left                : 0;
@@ -3310,7 +3316,7 @@ img.u-pull-left {
     font-size        : calc(var(--text-size) * 1.1111);
     line-height      : var(--vspace-1_25);
     color            : var(--color-text-light);
-    margin-top       : calc(var(--vspace-3) * -1);
+    margin-top       : calc(var(--vspace-3) * -2);
     margin-bottom    : 0;
     padding-top      : var(--vspace-2_5);
     position         : relative;
@@ -3350,6 +3356,7 @@ img.u-pull-left {
     background-color:rgba(10, 11, 11, 0.75);
     padding-right: var(--vspace-1);
     padding-left: var(--vspace-1);
+    padding-top: var(--vspace-1);
 }
 
 .pintro p {
@@ -3701,7 +3708,7 @@ img.u-pull-left {
 *
 * ------------------------------------------------------------------ */
 .s-team {
-    background-color: #136f63;
+    background-color: #E7E6E6;
     padding-top    : var(--vspace-5);
     padding-bottom : var(--vspace-4);
 }
@@ -3734,7 +3741,11 @@ img.u-pull-left {
 }
 
 .s-team p {
-    color: var(--color-white);
+    color: var(--color-gray-15);
+}
+
+.s-team h1 {
+    color: var(--color-black);
 }
 
 /* ==================================================================
@@ -3975,8 +3986,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
  .s-folio {
     background-color : var(--color-gray-19);
-    padding-top      : var(--vspace-5);
-    padding-bottom   : var(--vspace-5);
+    padding-top      : var(--vspace-4);
+    padding-bottom   : var(--vspace-2);
 }
 
 /* ===================================================================
