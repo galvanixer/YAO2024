@@ -1,29 +1,29 @@
-- name: Monika Aidelsburger
-  affiliation: MPI für Quantenoptik, Munich, Germany
-  intro: 
-  image: 
-
-- name: Antoine Browaeys
+- name: <a href="https://atom-tweezers-io.org/">Antoine Browaeys</a>
   affiliation: Institut d’Optique, CNRS, France
   intro: 
   image: 
 
-- name: Elisa Ercolessi
-  affiliation: University of Bologna, Italy
+- name: <a href="https://www.unibo.it/sitoweb/elisa.ercolessi/en">Elisa Ercolessi</a>
+  affiliation: Università di Bologna, Italy
   intro: 
   image: 
 
-- name: Christiane Koch
+- name: <a href="https://www.physik.fu-berlin.de/einrichtungen/ag/ag-koch/index.html">Christiane Koch</a>
   affiliation: Freie Universität Berlin, Germany
   intro: 
   image: 
 
-- name: Patrick Maletinsky
-  affiliation: University of Basel, Switzerland
+- name: <a href="https://quantum-sensing.physik.unibas.ch/en/">Patrick Maletinsky</a>
+  affiliation: Universität Basel, Switzerland
   intro: 
   image: 
 
-- name: Katharina Kaiser
-  affiliation: Göttingen University, Germany
+- name: <a href="https://scholar.google.com/citations?user=ZihTRpYAAAAJ&hl=en">Katharina Kaiser</a>
+  affiliation: Unversität Göttingen, Germany
+  intro: 
+  image: 
+
+- name: two more to be announced
+  affiliation: stay tuned!
   intro: 
   image: 

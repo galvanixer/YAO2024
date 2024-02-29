@@ -1,5 +1,8 @@
 - category: Standard fees(including accomodation)
-  fee: 520 € 
+  fee: 490 € 
 
 - category: Reduced fee (without accomodation)
-  fee: 340 €
+  fee: 310 €
+
+- category: Limited QMat grants
+  fee: Free
