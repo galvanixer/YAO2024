@@ -21,7 +21,7 @@
 title: YAO 2024
 email: tanulgupta123@gmail.com
 description: YAO 2024 conference website # this means to ignore newlines until "baseurl:"
-baseurl: /YAO2024 # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tanulgupta1990
 github_username:  galvanixer
