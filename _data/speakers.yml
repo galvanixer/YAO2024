@@ -1,10 +1,15 @@
+- name: <a href="https://atom-tweezers-io.org/">Antoine Browaeys</a>
+  affiliation: Institut d’Optique, CNRS, France
+  intro: 
+  image: 
+
 - name: <a href="https://scholar.google.de/citations?user=ObB4HasAAAAJ&hl=en">Giovanni Modugno</a>
   affiliation: LENS, Università di Firenze, Italy
   intro: 
   image: 
 
-- name: <a href="https://atom-tweezers-io.org/">Antoine Browaeys</a>
-  affiliation: Institut d’Optique, CNRS, France
+- name: <a href="https://www.durham.ac.uk/staff/c-s-adams/">Stuart Adams</a>
+  affiliation: Durham University, England
   intro: 
   image: 
 
@@ -25,10 +30,5 @@
 
 - name: <a href="https://scholar.google.com/citations?user=ZihTRpYAAAAJ&hl=en">Katharina Kaiser</a>
   affiliation: Unversität Göttingen, Germany
-  intro: 
-  image: 
-
-- name: one more to be announced
-  affiliation: stay tuned!
   intro: 
   image: 
