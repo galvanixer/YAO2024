@@ -1,0 +1,41 @@
+<!-- # site header 
+        ================================================== -->
+<header class="s-header">
+
+    <div class="s-header__block">
+        <div class="s-header__logo">
+            <a class="logo" href="index.html">
+                <img src={{ "/assets/images/logo_final_darkbgV3.svg" | relative_url }} alt="Homepage">
+            </a>
+        </div>
+
+        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+    </div> <!-- end s-header__block -->
+
+    <div class="row s-header__nav-wrap">
+        <nav class="s-header__nav">
+            <ul>
+                {% for item in site.data.navigation_legales %}
+                <li {% if item.current == true %} class="current" {% endif %}><a href="{{ item.link }}" class="smoothscroll" title={{ item.title }}>{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <ul class="s-header__social">
+            {% for item in site.data.social %}
+            {% if item.display == true %}
+            <li>
+                <a href={{ item.url }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                        {{ item.svg }}
+                    </svg>
+                    <span class="screen-reader-text">{{ item.name }}</span>
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div> <!-- end s-header__nav-wrap -->
+
+</header> <!-- end s-header -->
