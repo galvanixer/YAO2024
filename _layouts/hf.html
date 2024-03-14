@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YAO 2024</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href={{"/assets/css/vendor.css" | relative_url }}>
+    <link rel="stylesheet" href={{"/assets/css/styles.css" | relative_url }}>
+    
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="90x90" href={{"/assets/images/icons/icons8-atom-90.png" | relative_url }}>
+    <link rel="icon" type="image/png" sizes="60x60" href={{"/assets/images/icons/icons8-atom-60.png" | relative_url }}>
+    <link rel="icon" type="image/png" sizes="30x30" href={{"/assets/images/icons/icons8-atom-30.png" | relative_url }}>
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body id="top">
+
+        <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+    <div class="s-pagewrap">
+        {% include header.html %}
+        {{ content }}
+        {% include footer.html %}
+    </div>
+
+            <!-- Java Script
+    ================================================== -->
+    <script src={{ "/assets/js/plugins.js" | relative_url }}></script>
+    <script src={{ "/assets/js/main.js" | relative_url }}></script>
+</body>
+</html>
