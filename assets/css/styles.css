@@ -3220,14 +3220,14 @@ img.u-pull-left {
 }
 
 .s-intro__bg {
-    background-image    : url(../images/intro-bg.jpg);
+    /* background-image    : url(../images/intro-bg.jpg); */
+    background-image    : url(../images/PetiteFrance.jpg);
     background-repeat   : no-repeat;
-    background-position : center;
+    background-position : top;
     background-size     : cover;
     width               : 100%;
-    height              : 50%;
     position            : absolute;
-    top                 : calc(1.75 * var(--text-huge-line-height) * var(--text-huge) * var(--text-huge-multiplier));
+    top                 : calc(2.2 * var(--text-huge-line-height) * var(--text-huge) * var(--text-huge-multiplier));
     right               : 0;
     bottom              : 0;
     left                : 0;
@@ -3255,10 +3255,10 @@ img.u-pull-left {
     letter-spacing : normal;
     text-align     : center;
     margin         : 0;
-    padding-top  : var(--vspace-1);
-    padding-bottom : calc(4 * var(--space));
+    /* padding-top  : var(--vspace-1); */
+    padding-bottom : calc(18 * var(--space));
     position       : relative;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .s-intro__text span {
@@ -3310,7 +3310,7 @@ img.u-pull-left {
  * ## intro about
  * -------------------------------------------------------------------- */
 .s-intro__about {
-    z-index          : 2;
+    z-index          : 1;
     flex             : none;
     width            : 100%;
     max-width        : 1300px;
@@ -3320,15 +3320,16 @@ img.u-pull-left {
     line-height      : var(--vspace-1_25);
     color            : var(--color-text-light);
     margin-top       : calc(var(--vspace-3) * -1);
+    /* margin-bottom    : var(--vspace-3_5); */
     margin-bottom    : 0;
-    padding-top      : var(--vspace-2_5);
+    padding          : var(--vspace-1) var(--vspace-3) 0;
     position         : relative;
 }
 
 .s-intro__about::before {
     content          : "";
     display          : block;
-    width            : 1px;
+    width            : 0px;
     height           : var(--vspace-2);
     background-color : var(--color-1);
     transform        : translateX(-50%);
@@ -3360,7 +3361,7 @@ img.u-pull-left {
     background-color:rgba(10, 11, 11, 0.75);
     padding-right: var(--vspace-1);
     padding-left: var(--vspace-1);
-    padding-top: var(--vspace-1);
+    padding-top: var(--vspace-0_125);
 }
 
 .pintro p {
@@ -3535,14 +3536,14 @@ img.u-pull-left {
     }
 
     .s-intro__about {
-        margin-bottom : var(--vspace-2_5);
-        padding       : var(--vspace-2) var(--vspace-1) var(--vspace-0_5);
+        margin-bottom : 0;
+        padding       : var(--vspace-0_5) var(--vspace-1) var(--vspace-0_125);
     }
 
     .s-intro__about .s-intro__about-title {
         font-size     : var(--text-size);
         line-height   : var(--vspace-0_75);
-        margin-bottom : var(--vspace-1_25);
+        margin-bottom : var(--vspace-0_125);
     }
 }
 

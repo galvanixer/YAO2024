@@ -16,10 +16,11 @@
         <nav class="s-header__nav">
             <ul>
                 {% for item in site.data.navigation %}
-                <li {% if item.current == true %} class="current" {% endif %}><a href="{{ item.link }}" class="smoothscroll" title={{ item.title }}>{{ item.title }}</a></li>
+                <li><a href="{{ item.link }}" class="smoothscroll" title={{ item.title }}>{{ item.title }}</a></li>
                 {% endfor %}
             </ul>
         </nav>
+
 
         <ul class="s-header__social">
             {% for item in site.data.social %}
