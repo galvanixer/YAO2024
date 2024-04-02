@@ -3270,6 +3270,20 @@ img.u-pull-left {
     color : var(--color-1);
 }
 
+.colorwhite {
+    color : var(--color-white);
+}
+
+.colorwhite a {
+    color : var(--color-gray-1);
+    /* set bold */
+    font-weight : 600;
+}
+
+.colorwhite a:hover {
+    color : var(--color-gray-19);
+}
+
 /* --------------------------------------------------------------------
  * ## intro scroll down
  * -------------------------------------------------------------------- */
