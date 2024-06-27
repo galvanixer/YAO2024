@@ -11,6 +11,30 @@
         </div>
     </div> <!-- end section-header -->
 
+    <div class="row">
+        <div class="column lg-12">
+
+            <div class="table-responsive">
+
+                <table>
+                    <!-- <thead>
+                        <tr>
+                            <th>Event</th>
+                            <th>Inform</th>
+                        </tr>
+                    </thead> -->
+                    <tbody>
+                        {% for item in site.data.information %}
+                        <tr>
+                            <td><b>{{ item.category }}</b></td>
+                            <td>{{ item.information }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     <div class="column lg-12">
         <div class="row">
         <figure class="margin-top-bottom-0">
